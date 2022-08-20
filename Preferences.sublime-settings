@@ -27,7 +27,7 @@
 	"ignored_packages":
 	[
 		"ColorHighlight",
-		"Vintage"
+		"Vintage",
 	],
 	"remember_open_files": false,
 	"rulers":
@@ -40,5 +40,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
 	"use_tab_stops": true,
-	"word_wrap": false
+	"word_wrap": false,
 }

@@ -2,7 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"ColorHighlight"
+		"ColorHighlight",
 	],
 	"installed_packages":
 	[
@@ -22,5 +22,5 @@
 		"SCSS",
 		"SublimeLinter",
 		"SublimeLinter-rubocop"
-	]
+	],
 }
