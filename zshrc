@@ -70,3 +70,8 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# Utilise le SDK macOS fourni avec les Command Line Tools installées.
+# Le SDK MacOSX27.0 présent sur ce Mac est incompatible avec le linker actuel
+# (erreur "C compiler cannot create executables" avec `rbenv install` ou les gems natives).
+[[ -d /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk ]] && export SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
